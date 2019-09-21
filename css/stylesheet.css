@@ -1,0 +1,12 @@
+table {
+  margin: 20px auto;
+}
+
+td {
+  border: 2px solid black;
+}
+
+input {
+  width: 64px;
+  height: 64px;
+}
