@@ -6,6 +6,19 @@
     <link rel="stylesheet" href="css/stylesheet.css">
   </head>
   <body>
+
+    <audio id="mBisonAudio">
+      <source src="audio/M.Bison/pl0a_u_00008.mp3" type="audio/mpeg">
+      <source src="audio/M.Bison/pl0a_u_00008.ogg" type="audio/ogg">
+      <source src="audio/M.Bison/pl0a_u_00008.wav" type="audio/wav">
+    </audio>
+
+    <audio id="guileAudio">
+      <source src="" type="audio/mpeg">
+      <source src="" type="audio/ogg">
+      <source src="" type="audio/wav">
+    </audio>
+
     <div class="container">
       <table>
         <tbody>
@@ -14,7 +27,7 @@
             <td></td>
             <td></td>
             <td></td>
-            <td><input type="image" src="imgs/SFA3_MBison.png"></td>
+            <td id="mBisonButton" class="character"><input type="image" src="imgs/SFA3_MBison.png"></td>
             <td></td>
             <td></td>
             <td></td>
@@ -23,11 +36,11 @@
           <!-- row 2 -->
           <tr>
             <td></td>
-            <td><input type="image" src="imgs/SFA3_Guile.png"></td>
-            <td><input type="image" src="imgs/SFA3_Charlie.png"></td>
-            <td><input type="image" src="imgs/SFA3_ChunLi.png"></td>
-            <td><input type="image" src="imgs/SFA3_Sagat.png"></td>
-            <td><input type="image" src="imgs/SFA3_FeiLong.png"></td>
+            <td><input id="guileButton" type="image" src="imgs/SFA3_Guile.png"></td>
+            <td><input id="charlieButton" type="image" src="imgs/SFA3_Charlie.png"></td>
+            <td><input id="chunLiButton" type="image" src="imgs/SFA3_ChunLi.png"></td>
+            <td><input id="sagatButton" type="image" src="imgs/SFA3_Sagat.png"></td>
+            <td><input id="feiLongButton" type="image" src="imgs/SFA3_FeiLong.png"></td>
             <td></td>
           </tr>
 
@@ -88,6 +101,6 @@
         </tbody>
       </table>
     </div>
-
+    <script src="js/script.js" charset="utf-8"></script>
   </body>
 </html>

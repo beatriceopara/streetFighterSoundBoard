@@ -2,11 +2,19 @@ table {
   margin: 20px auto;
 }
 
-td {
-  border: 2px solid black;
-}
-
-input {
+input[type="image"] {
   width: 64px;
   height: 64px;
+  box-shadow: 10px 5px 5px grey;
+  margin: 7px;
+  outline: none;
+}
+
+input[type="image"]:hover {
+  opacity: 0.7;
+}
+
+input[type="image"]:active {
+  box-shadow: 5px 5px 5px grey;
+  transform: translateY(4px);
 }
