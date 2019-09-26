@@ -18,3 +18,20 @@ input[type="image"]:active {
   box-shadow: 5px 5px 5px grey;
   transform: translateY(4px);
 }
+
+/* show a larger image when on a smaller screen */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  input[type="image"] {
+    width: 94px;
+    height: 84px;
+    box-shadow: 10px 5px 5px grey;
+    margin: 7px;
+    outline: none;
+  }
+  input[type="title"] {
+    display: none;
+  }
+}
