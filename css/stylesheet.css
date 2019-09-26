@@ -48,8 +48,8 @@ input[type="image"]:active {
   }
 
   input[type="image"] {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     box-shadow: 10px 5px 5px grey;
     margin: 7px;
     outline: none;
