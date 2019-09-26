@@ -9,6 +9,7 @@ input#title {
   width: 600px;
   height: 250px;
   box-shadow: none;
+  /* centred image */
   display: block;
   margin-left: auto;
   margin-right: auto
