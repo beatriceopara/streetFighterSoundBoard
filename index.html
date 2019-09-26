@@ -7,19 +7,7 @@
   </head>
   <body>
 
-    <audio id="mBisonAudio">
-      <source src="audio/M.Bison/pl0a_u_00008.mp3" type="audio/mpeg">
-      <source src="audio/M.Bison/pl0a_u_00008.ogg" type="audio/ogg">
-      <source src="audio/M.Bison/pl0a_u_00008.wav" type="audio/wav">
-    </audio>
-
-    <audio id="guileAudio">
-      <source src="audio/Guile/pl20_u_00008.mp3" type="audio/mpeg">
-      <source src="audio/Guile/pl20_u_00008.ogg" type="audio/ogg">
-      <source src="audio/Guile/pl20_u_00008.wav" type="audio/wav">
-    </audio>
-
-    <div class="container">
+  <div class="container">
       <table>
         <tbody>
           <!-- row 1 -->
@@ -46,61 +34,285 @@
 
           <!-- row 3 -->
           <tr>
-            <td><input type="image" src="imgs/SFA3_DeeJay.png"></td>
-            <td><input type="image" src="imgs/SFA3_Dan.png"></td>
-            <td><input type="image" src="imgs/SFA3_Guy.png"></td>
-            <td><input type="image" src="imgs/SFA3_RMika.png"></td>
-            <td><input type="image" src="imgs/SFA3_Birdie.png"></td>
-            <td><input type="image" src="imgs/SFA3_Akuma.png"></td>
-            <td><input type="image" src="imgs/SFA3_EvilRyu.png"></td>
+            <td><input id="deeJayButton" type="image" src="imgs/SFA3_DeeJay.png"></td>
+            <td><input id="danButton" type="image" src="imgs/SFA3_Dan.png"></td>
+            <td><input id="guyButton" type="image" src="imgs/SFA3_Guy.png"></td>
+            <td><input id="rMikaButton" type="image" src="imgs/SFA3_RMika.png"></td>
+            <td><input id="birdieButton" type="image" src="imgs/SFA3_Birdie.png"></td>
+            <td><input id="akumaButton" type="image" src="imgs/SFA3_Akuma.png"></td>
+            <td><input id="evilRyuButton" type="image" src="imgs/SFA3_EvilRyu.png"></td>
           </tr>
 
           <!-- row 4 -->
           <tr>
-            <td><input type="image" src="imgs/SFA3_Ryu.png"></td>
-            <td><input type="image" src="imgs/SFA3_EHonda.png"></td>
-            <td><input type="image" src="imgs/SFA3_Cody.png"></td>
-            <td><input type="image" src="imgs/SFA3_Karin.png"></td>
-            <td><input type="image" src="imgs/SFA3_Vega.png"></td>
-            <td><input type="image" src="imgs/SFA3_Blanka.png"></td>
-            <td><input type="image" src="imgs/SFA3_Ken.png"></td>
+            <td><input id="ryuButton" type="image" src="imgs/SFA3_Ryu.png"></td>
+            <td><input id="eHondaButton" type="image" src="imgs/SFA3_EHonda.png"></td>
+            <td><input id="codyButton" type="image" src="imgs/SFA3_Cody.png"></td>
+            <td><input id="karinButton" type="image" src="imgs/SFA3_Karin.png"></td>
+            <td><input id="vegaButton" type="image" src="imgs/SFA3_Vega.png"></td>
+            <td><input id="blankaButton" type="image" src="imgs/SFA3_Blanka.png"></td>
+            <td><input id="kenButton" type="image" src="imgs/SFA3_Ken.png"></td>
           </tr>
 
           <!-- row 5 -->
           <tr>
-            <td><input type="image" src="imgs/SFA3_Juni.png"></td>
-            <td><input type="image" src="imgs/SFA3_Dhalsim.png"></td>
-            <td><input type="image" src="imgs/SFA3_Sodom.png"></td>
-            <td><input type="image" src="imgs/SFA3_Cammy.png"></td>
-            <td><input type="image" src="imgs/SFA3_Adon.png"></td>
-            <td><input type="image" src="imgs/SFA3_Zangief.png"></td>
-            <td><input type="image" src="imgs/SFA3_Juli.png"></td>
+            <td><input id="juliButton" type="image" src="imgs/SFA3_Juli.png"></td>
+            <td><input id="dhalsimButton" type="image" src="imgs/SFA3_Dhalsim.png"></td>
+            <td><input id="sodomButton" type="image" src="imgs/SFA3_Sodom.png"></td>
+            <td><input id="cammyButton" type="image" src="imgs/SFA3_Cammy.png"></td>
+            <td><input id="adonButton" type="image" src="imgs/SFA3_Adon.png"></td>
+            <td><input id="zangiefButton" type="image" src="imgs/SFA3_Zangief.png"></td>
+            <td><input id="juniButton" type="image" src="imgs/SFA3_Juni.png"></td>
           </tr>
 
           <!-- row 6 -->
           <tr>
-            <td><input type="image" src="imgs/SFA3_Yun.png"></td>
-            <td><input type="image" src="imgs/SFA3_THawk.png"></td>
-            <td><input type="image" src="imgs/SFA3_Rolento.png"></td>
-            <td><input type="image" src="imgs/SFA3_Sakura.png"></td>
-            <td><input type="image" src="imgs/SFA3_Gen.png"></td>
-            <td><input type="image" src="imgs/SFA3_Balrog.png"></td>
-            <td><input type="image" src="imgs/SFA3_Ingrid.png"></td>
+            <td><input id="yunButton" type="image" src="imgs/SFA3_Yun.png"></td>
+            <td><input id="tHawkButton" type="image" src="imgs/SFA3_THawk.png"></td>
+            <td><input id="rolentoButton" type="image" src="imgs/SFA3_Rolento.png"></td>
+            <td><input id="sakuraButton" type="image" src="imgs/SFA3_Sakura.png"></td>
+            <td><input id="genButton" type="image" src="imgs/SFA3_Gen.png"></td>
+            <td><input id="balrogButton" type="image" src="imgs/SFA3_Balrog.png"></td>
+            <td><input id="ingridButton" type="image" src="imgs/SFA3_Ingrid.png"></td>
           </tr>
 
           <!-- row 7 -->
           <tr>
             <td></td>
             <td></td>
-            <td><input type="image" src="imgs/SFA3_Eagle.png"></td>
-            <td><input type="image" src="imgs/SFA3_Rose.png"></td>
-            <td><input type="image" src="imgs/SFA3_Maki.png"></td>
+            <td><input id="eagleButton" type="image" src="imgs/SFA3_Eagle.png"></td>
+            <td><input id="roseButton" type="image" src="imgs/SFA3_Rose.png"></td>
+            <td><input id="makiButton" type="image" src="imgs/SFA3_Maki.png"></td>
             <td></td>
             <td></td>
           </tr>
         </tbody>
       </table>
     </div>
+
+    <audio id="mBisonAudio">
+      <source src="audio/M.Bison/pl0a_u_00008.mp3" type="audio/mpeg">
+      <source src="audio/M.Bison/pl0a_u_00008.ogg" type="audio/ogg">
+      <source src="audio/M.Bison/pl0a_u_00008.wav" type="audio/wav">
+    </audio>
+
+    <audio id="guileAudio">
+      <source src="audio/Guile/pl20_u_00008.mp3" type="audio/mpeg">
+      <source src="audio/Guile/pl20_u_00008.ogg" type="audio/ogg">
+      <source src="audio/Guile/pl20_u_00008.wav" type="audio/wav">
+    </audio>
+
+    <audio id="charlieAudio">
+      <source src="audio/Charlie/pl03_u_00009.mp3" type="audio/mpeg">
+      <source src="audio/Charlie/pl03_u_00009.ogg" type="audio/ogg">
+      <source src="audio/Charlie/pl03_u_00009.wav" type="audio/wav">
+    </audio>
+
+    <audio id="chunLiAudio">
+      <source src="audio/Chun-Li/pl12_u_00008.mp3" type="audio/mpeg">
+      <source src="audio/Chun-Li/pl12_u_00008.ogg" type="audio/ogg">
+      <source src="audio/Chun-Li/pl12_u_00008.wav" type="audio/wav">
+    </audio>
+
+    <audio id="sagatAudio">
+      <source src="audio/Sagat/pl0b_u_00008.mp3" type="audio/mpeg">
+      <source src="audio/Sagat/pl0b_u_00008.ogg" type="audio/ogg">
+      <source src="audio/Sagat/pl0b_u_00008.wav" type="audio/wav">
+    </audio>
+
+    <audio id="feiLongAudio">
+      <source src="audio/Fei-Long/pl21_u_00010.mp3" type="audio/mpeg">
+      <source src="audio/Fei-Long/pl21_u_00010.ogg" type="audio/ogg">
+      <source src="audio/Fei-Long/pl21_u_00010.wav" type="audio/wav">
+    </audio>
+
+    <audio id="deeJayAudio">
+      <source src="audio/Dee Jay/pl22_u_00007.mp3" type="audio/mpeg">
+      <source src="audio/Dee Jay/pl22_u_00007.ogg" type="audio/ogg">
+      <source src="audio/Dee Jay/pl22_u_00007.wav" type="audio/wav">
+    </audio>
+
+    <audio id="danAudio">
+      <source src="audio/Dan/pl0c_u_00008.mp3" type="audio/mpeg">
+      <source src="audio/Dan/pl0c_u_00008.ogg" type="audio/ogg">
+      <source src="audio/Dan/pl0c_u_00008.wav" type="audio/wav">
+    </audio>
+
+    <audio id="guyAudio">
+      <source src="audio/Guy/pl07_u_00008.mp3" type="audio/mpeg">
+      <source src="audio/Guy/pl07_u_00008.ogg" type="audio/ogg">
+      <source src="audio/Guy/pl07_u_00008.wav" type="audio/wav">
+    </audio>
+
+    <audio id="rMikaAudio">
+      <source src="audio/Rainbow Mika/pl1a_u_00007.mp3" type="audio/mpeg">
+      <source src="audio/Rainbow Mika/pl1a_u_00007.ogg" type="audio/ogg">
+      <source src="audio/Rainbow Mika/pl1a_u_00007.wav" type="audio/wav">
+    </audio>
+    <div class="container">
+
+    <audio id="birdieAudio">
+      <source src="audio/Birdie/pl08_u_00008.mp3" type="audio/mpeg">
+      <source src="audio/Birdie/pl08_u_00008.ogg" type="audio/ogg">
+      <source src="audio/Birdie/pl08_u_00008.wav" type="audio/wav">
+    </audio>
+
+    <audio id="akumaAudio">
+      <source src="audio/Akuma/pl02_u_00009.mp3" type="audio/mpeg">
+      <source src="audio/Akuma/pl02_u_00009.ogg" type="audio/ogg">
+      <source src="audio/Akuma/pl02_u_00009.wav" type="audio/wav">
+    </audio>
+
+    <audio id="evilRyuAudio">
+      <source src="audio/Ryu/pl00_u_00007.mp3" type="audio/mpeg">
+      <source src="audio/Ryu/pl00_u_00007.ogg" type="audio/ogg">
+      <source src="audio/Ryu/pl00_u_00007.wav" type="audio/wav">
+    </audio>
+
+    <audio id="ryuAudio">
+      <source src="audio/Ryu/pl00_u_00008.mp3" type="audio/mpeg">
+      <source src="audio/Ryu/pl00_u_00008.ogg" type="audio/ogg">
+      <source src="audio/Ryu/pl00_u_00008.wav" type="audio/wav">
+    </audio>
+
+    <audio id="eHondaAudio">
+      <source src="audio/E.Honda/pl18_u_00008.mp3" type="audio/mpeg">
+      <source src="audio/E.Honda/pl18_u_00008.ogg" type="audio/ogg">
+      <source src="audio/E.Honda/pl18_u_00008.wav" type="audio/wav">
+    </audio>
+
+    <audio id="codyAudio">
+      <source src="audio/Cody/pl1b_u_00014.mp3" type="audio/mpeg">
+      <source src="audio/Cody/pl1b_u_00014.ogg" type="audio/ogg">
+      <source src="audio/Cody/pl1b_u_00014.wav" type="audio/wav">
+    </audio>
+
+    <audio id="karinAudio">
+      <source src="audio/Karin/pl1d_u_00011.mp3" type="audio/mpeg">
+      <source src="audio/Karin/pl1d_u_00011.ogg" type="audio/ogg">
+      <source src="audio/Karin/pl1d_u_00011.wav" type="audio/wav">
+    </audio>
+
+    <audio id="vegaAudio">
+      <source src="audio/Vega/pl1c_u_00012.mp3" type="audio/mpeg">
+      <source src="audio/Vega/pl1c_u_00012.ogg" type="audio/ogg">
+      <source src="audio/Vega/pl1c_u_00012.wav" type="audio/wav">
+    </audio>
+
+    <audio id="blankaAudio">
+      <source src="audio/Blanka/pl19_u_00020.mp3" type="audio/mpeg">
+      <source src="audio/Blanka/pl19_u_00020.ogg" type="audio/ogg">
+      <source src="audio/Blanka/pl19_u_00020.wav" type="audio/wav">
+    </audio>
+
+    <audio id="kenAudio">
+      <source src="audio/Ken/pl01_u_00009.mp3" type="audio/mpeg">
+      <source src="audio/Ken/pl01_u_00009.ogg" type="audio/ogg">
+      <source src="audio/Ken/pl01_u_00009.wav" type="audio/wav">
+    </audio>
+
+    <audio id="juliAudio">
+      <source src="audio/Cammy/pl16_u_00008.mp3" type="audio/mpeg">
+      <source src="audio/Cammy/pl16_u_00008.ogg" type="audio/ogg">
+      <source src="audio/Cammy/pl16_u_00008.wav" type="audio/wav">
+    </audio>
+
+    <audio id="dhalsimAudio">
+      <source src="audio/Dhalsim/pl0f_u_00008.mp3" type="audio/mpeg">
+      <source src="audio/Dhalsim/pl0f_u_00008.ogg" type="audio/ogg">
+      <source src="audio/Dhalsim/pl0f_u_00008.wav" type="audio/wav">
+    </audio>
+
+    <audio id="sodomAudio">
+      <source src="audio/Sodom/pl06_u_00008.mp3" type="audio/mpeg">
+      <source src="audio/Sodom/pl06_u_00008.ogg" type="audio/ogg">
+      <source src="audio/Sodom/pl06_u_00008.wav" type="audio/wav">
+    </audio>
+
+    <audio id="cammyAudio">
+      <source src="audio/Cammy/pl16_u_00009.mp3" type="audio/mpeg">
+      <source src="audio/Cammy/pl16_u_00009.ogg" type="audio/ogg">
+      <source src="audio/Cammy/pl16_u_00009.wav" type="audio/wav">
+    </audio>
+
+    <audio id="adonAudio">
+      <source src="audio/Adon/pl05_u_00008.mp3" type="audio/mpeg">
+      <source src="audio/Adon/pl05_u_00008.ogg" type="audio/ogg">
+      <source src="audio/Adon/pl05_u_00008.wav" type="audio/wav">
+    </audio>
+
+    <audio id="zangiefAudio">
+      <source src="audio/Zangief/pl10_u_00009.mp3" type="audio/mpeg">
+      <source src="audio/Zangief/pl10_u_00009.ogg" type="audio/ogg">
+      <source src="audio/Zangief/pl10_u_00009.wav" type="audio/wav">
+    </audio>
+
+    <audio id="juniAudio">
+      <source src="audio/Cammy/pl16_u_00010.mp3" type="audio/mpeg">
+      <source src="audio/Cammy/pl16_u_00010.ogg" type="audio/ogg">
+      <source src="audio/Cammy/pl16_u_00010.wav" type="audio/wav">
+    </audio>
+
+    <audio id="yunAudio">
+      <source src="audio/Yun/pl28_u_00012.mp3" type="audio/mpeg">
+      <source src="audio/Yun/pl28_u_00012.ogg" type="audio/ogg">
+      <source src="audio/Yun/pl28_u_00012.wav" type="audio/wav">
+    </audio>
+
+    <audio id="tHawkAudio">
+      <source src="audio/T. Hawk/pl23_u_00009.mp3" type="audio/mpeg">
+      <source src="audio/T. Hawk/pl23_u_00009.ogg" type="audio/ogg">
+      <source src="audio/T. Hawk/pl23_u_00009.wav" type="audio/wav">
+    </audio>
+
+    <audio id="rolentoAudio">
+      <source src="audio/Rolento/pl0e_u_00007.mp3" type="audio/mpeg">
+      <source src="audio/Rolento/pl0e_u_00007.ogg" type="audio/ogg">
+      <source src="audio/Rolento/pl0e_u_00007.wav" type="audio/wav">
+    </audio>
+
+    <audio id="sakuraAudio">
+      <source src="audio/Sakura/pl0d_u_00007.mp3" type="audio/mpeg">
+      <source src="audio/Sakura/pl0d_u_00007.ogg" type="audio/ogg">
+      <source src="audio/Sakura/pl0d_u_00007.wav" type="audio/wav">
+    </audio>
+
+    <audio id="genAudio">
+      <source src="audio/Gen/pl11_u_00014.mp3" type="audio/mpeg">
+      <source src="audio/Gen/pl11_u_00014.ogg" type="audio/ogg">
+      <source src="audio/Gen/pl11_u_00014.wav" type="audio/wav">
+    </audio>
+
+    <audio id="balrogAudio">
+      <source src="audio/Balrog/pl15_u_00017.mp3" type="audio/mpeg">
+      <source src="audio/Balrog/pl15_u_00017.ogg" type="audio/ogg">
+      <source src="audio/Balrog/pl15_u_00017.wav" type="audio/wav">
+    </audio>
+
+    <audio id="ingridAudio">
+      <source src="audio/Ingrid/pl29_u_00011.mp3" type="audio/mpeg">
+      <source src="audio/Ingrid/pl29_u_00011.ogg" type="audio/ogg">
+      <source src="audio/Ingrid/pl29_u_00011.wav" type="audio/wav">
+    </audio>
+
+    <audio id="eagleAudio">
+      <source src="audio/Eagle/pl26_u_00012.mp3" type="audio/mpeg">
+      <source src="audio/Eagle/pl26_u_00012.ogg" type="audio/ogg">
+      <source src="audio/Eagle/pl26_u_00012.wav" type="audio/wav">
+    </audio>
+
+    <audio id="roseAudio">
+      <source src="audio/Rose/pl09_u_00008.mp3" type="audio/mpeg">
+      <source src="audio/Rose/pl09_u_00008.ogg" type="audio/ogg">
+      <source src="audio/Rose/pl09_u_00008.wav" type="audio/wav">
+    </audio>
+
+    <audio id="makiAudio">
+      <source src="audio/Maki/pl27_u_00012.mp3" type="audio/mpeg">
+      <source src="audio/Maki/pl27_u_00012.ogg" type="audio/ogg">
+      <source src="audio/Maki/pl27_u_00012.wav" type="audio/wav">
+    </audio>
+
     <script src="js/script.js" charset="utf-8"></script>
   </body>
 </html>
