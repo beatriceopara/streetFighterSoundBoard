@@ -51,7 +51,7 @@ input[type="image"]:active {
     width: 90px;
     height: 90px;
     box-shadow: 10px 5px 5px grey;
-    margin: 7px;
+    margin: 10px;
     outline: none;
   }
 
