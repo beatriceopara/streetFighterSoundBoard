@@ -1,3 +1,9 @@
+var announcerAudio = document.getElementById("announcerAudio");
+var announcerButton = document.getElementById("title");
+announcerButton.addEventListener("click", function() {
+  announcerAudio.currentTime = 0;
+  announcerAudio.play();
+});
 var bisonAudio = document.getElementById("mBisonAudio");
 var bisonButton = document.getElementById("mBisonButton");
 bisonButton.addEventListener("click", function() {
